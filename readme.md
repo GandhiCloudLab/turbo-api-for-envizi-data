@@ -1,9 +1,11 @@
 # Turbonomic and Envizi Integration - info
 
+This document contains information about how to get the Engery and Carbon Foot print data available in Turbonoimc through APIs.
 
-## Turbonomic APIs
 
-### Login
+## 1. Turbonomic APIs
+
+### 1.1 Login
 
 URL : https://sales1.demo.turbonomic.com/api/v3/login?hateoas=true
 
@@ -21,7 +23,7 @@ curl --location 'https://sales1.demo.turbonomic.com/api/v3/login?hateoas=true' \
 
 ```
 
-### Data Center
+### 1.2 Data Center
 
 URL : https://sales1.demo.turbonomic.com/api/v3/search?types=DataCenter
 
@@ -39,9 +41,7 @@ curl --location 'https://sales1.demo.turbonomic.com/api/v3/search?types=DataCent
 
 ```
 
-
-
-### Supplychains
+### 1.3 Supplychains
 
 URL : https://sales1.demo.turbonomic.com/api/v3/supplychains?environment_type=ONPREM&uuids=75703516241553
 
@@ -58,7 +58,7 @@ curl --location 'https://sales1.demo.turbonomic.com/api/v3/supplychains?environm
 
 ```
 
-### Entities
+### 1.4 Entities
 
 URL : https://sales1.demo.turbonomic.com/api/v3/entities/75703516241553/stats
 
@@ -75,7 +75,7 @@ curl --location 'https://sales1.demo.turbonomic.com/api/v3/entities/757035162415
 
 ```
 
-## Energy and Carbon FootPrint Details in Turbonomic
+## 2. Energy and Carbon FootPrint Details in Turbonomic
 
 <details><summary>CLICK ME</summary>
 
@@ -94,12 +94,13 @@ curl --location 'https://sales1.demo.turbonomic.com/api/v3/entities/757035162415
 
 </details>
 
-### Energy Data  in 2024
+## 3. Energy Data  in 2024
 
-#### Turbonmoic
+#### Turbonmoic Data
 
 <img src="images/img41.png">
 
+### Accessing via API
 
 URL : https://sales1.demo.turbonomic.com/api/v3/entities/75703516408913/stats
 
@@ -150,13 +151,13 @@ curl --location 'https://sales1.demo.turbonomic.com/api/v3/entities/757035164089
                 }'
 ```                
 
-### Carbon FootPrint  in 2024
+## 4. Carbon FootPrint in 2024
 
-#### Turbonmoic
+#### Turbonmoic Data
 
 <img src="images/img43.png">
 
-### 
+### Accessing via API
 
 URL : https://sales1.demo.turbonomic.com/api/v3/entities/75703516408913/stats
 
