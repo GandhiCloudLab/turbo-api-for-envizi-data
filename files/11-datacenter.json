@@ -1,0 +1,146 @@
+[
+    {
+        "uuid": "75703516241505",
+        "displayName": "IBMCloud",
+        "className": "DataCenter",
+        "environmentType": "ONPREM",
+        "discoveredBy": {
+            "uuid": "75703515957264",
+            "displayName": "dedwdc06-vc.na.cloud.techzone.ibm.com",
+            "category": "Hypervisor",
+            "isProbeRegistered": false,
+            "type": "vCenter",
+            "readonly": false
+        },
+        "vendorIds": {
+            "dedwdc06-vc.na.cloud.techzone.ibm.com": "datacenter-1001"
+        },
+        "state": "ACTIVE",
+        "severity": "Normal",
+        "severityBreakdown": {
+            "NORMAL": 1
+        },
+        "consumers": [
+            {
+                "uuid": "75703516241553",
+                "displayName": "ded-wdc06s002.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516241558",
+                "displayName": "ded-wdc06s007.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516241554",
+                "displayName": "ded-wdc06s003.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516241530",
+                "displayName": "ded-wdc06s000.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516241557",
+                "displayName": "ded-wdc06s006.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516241556",
+                "displayName": "ded-wdc06s005.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516241552",
+                "displayName": "ded-wdc06s001.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516241555",
+                "displayName": "ded-wdc06s004.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            }
+        ],
+        "tags": {
+            "EnviziAlternateName": [
+                "TurbonomicDemoLab-IBMCloud"
+            ],
+            "Country": [
+                "US"
+            ],
+            "Latitude": [
+                "39.04375670"
+            ],
+            "Longitude": [
+                "-77.48744160"
+            ]
+        },
+        "staleness": "CURRENT"
+    },
+    {
+        "uuid": "75703516408913",
+        "displayName": "vc01dc01",
+        "className": "DataCenter",
+        "environmentType": "ONPREM",
+        "discoveredBy": {
+            "uuid": "75703516249920",
+            "displayName": "vc01.na.cloud.techzone.ibm.com",
+            "category": "Hypervisor",
+            "isProbeRegistered": false,
+            "type": "vCenter",
+            "readonly": false
+        },
+        "vendorIds": {
+            "vc01.na.cloud.techzone.ibm.com": "datacenter-3"
+        },
+        "state": "ACTIVE",
+        "severity": "Normal",
+        "severityBreakdown": {
+            "NORMAL": 1
+        },
+        "consumers": [
+            {
+                "uuid": "75703516408920",
+                "displayName": "vc01esx04.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516408921",
+                "displayName": "vc01esx07.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516408919",
+                "displayName": "vc01esx06.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516408922",
+                "displayName": "vc01esx05.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516408916",
+                "displayName": "vc01esx01.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516408923",
+                "displayName": "vc01esx08.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516408917",
+                "displayName": "vc01esx02.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            },
+            {
+                "uuid": "75703516408918",
+                "displayName": "vc01esx03.na.cloud.techzone.ibm.com",
+                "className": "PhysicalMachine"
+            }
+        ],
+        "staleness": "CURRENT"
+    }
+]

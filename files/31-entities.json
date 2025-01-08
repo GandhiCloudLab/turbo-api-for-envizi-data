@@ -1,0 +1,742 @@
+[
+    {
+        "displayName": "ded-wdc06s002.na.cloud.techzone.ibm.com",
+        "date": "2025-01-08T05:06:47Z",
+        "statistics": [
+            {
+                "name": "Power",
+                "capacity": {
+                    "max": 1056.547,
+                    "min": 1056.547,
+                    "avg": 1056.547,
+                    "total": 1056.547,
+                    "totalMax": 1056.547,
+                    "totalMin": 1056.547
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "W",
+                "values": {
+                    "max": 568.618,
+                    "min": 568.618,
+                    "avg": 568.618,
+                    "total": 568.618,
+                    "totalMax": 568.618,
+                    "totalMin": 568.618
+                },
+                "value": 568.618,
+                "commoditySource": {
+                    "capacityCommoditySource": "Calculation",
+                    "usedCommoditySource": "Calculation",
+                    "capacitySourceIndex": -1,
+                    "usedSourceIndex": -1
+                }
+            },
+            {
+                "displayName": "KEY: PhysicalMachine::d4dd4c00-02f1-11ed-8000-000000000000",
+                "name": "CPUAllocation",
+                "capacity": {
+                    "max": 229824.0,
+                    "min": 229824.0,
+                    "avg": 229824.0,
+                    "total": 229824.0,
+                    "totalMax": 229824.0,
+                    "totalMin": 229824.0
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    },
+                    {
+                        "type": "key",
+                        "value": "PhysicalMachine::d4dd4c00-02f1-11ed-8000-000000000000",
+                        "displayName": null
+                    }
+                ],
+                "units": "MHz",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "name": "MemProvisioned",
+                "capacity": {
+                    "max": 3.21981256E10,
+                    "min": 3.21981256E10,
+                    "avg": 3.21981256E10,
+                    "total": 3.21981256E10,
+                    "totalMax": 3.21981256E10,
+                    "totalMin": 3.21981256E10
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "KB",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {
+                    "capacityCommoditySource": "Calculation",
+                    "usedCommoditySource": "Calculation",
+                    "capacitySourceIndex": 10,
+                    "usedSourceIndex": 6
+                }
+            },
+            {
+                "displayName": "FROM: MULTIPLE PROVIDERS ",
+                "name": "StorageAccess",
+                "capacity": {
+                    "max": 50000.0,
+                    "min": 50000.0,
+                    "avg": 50000.0,
+                    "total": 250000.0,
+                    "totalMax": 250000.0,
+                    "totalMin": 250000.0
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "bought",
+                        "displayName": null
+                    }
+                ],
+                "relatedEntity": {
+                    "displayName": "MULTIPLE PROVIDERS"
+                },
+                "units": "IOPS",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "name": "numHosts",
+                "filters": [],
+                "values": {
+                    "max": 1.0,
+                    "min": 1.0,
+                    "avg": 1.0,
+                    "total": 1.0,
+                    "totalMax": 1.0,
+                    "totalMin": 1.0
+                },
+                "value": 1.0
+            },
+            {
+                "name": "CPU",
+                "capacity": {
+                    "max": 229824.0,
+                    "min": 229824.0,
+                    "avg": 229824.0,
+                    "total": 229824.0,
+                    "totalMax": 229824.0,
+                    "totalMin": 229824.0
+                },
+                "reserved": {
+                    "max": 27578.875,
+                    "min": 27578.875,
+                    "avg": 27578.875,
+                    "total": 27578.875
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "MHz",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "name": "Swapping",
+                "capacity": {
+                    "max": 4.0E7,
+                    "min": 4.0E7,
+                    "avg": 4.0E7,
+                    "total": 4.0E7,
+                    "totalMax": 4.0E7,
+                    "totalMin": 4.0E7
+                },
+                "reserved": {
+                    "max": 4000000.0,
+                    "min": 4000000.0,
+                    "avg": 4000000.0,
+                    "total": 4000000.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "bit/sec",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "name": "numCPUs",
+                "filters": [],
+                "units": "",
+                "values": {
+                    "max": 96.0,
+                    "min": 96.0,
+                    "avg": 96.0,
+                    "total": 96.0,
+                    "totalMax": 96.0,
+                    "totalMin": 96.0
+                },
+                "value": 96.0
+            },
+            {
+                "name": "CPUReady",
+                "capacity": {
+                    "max": 3840000.0,
+                    "min": 3840000.0,
+                    "avg": 3840000.0,
+                    "total": 3840000.0,
+                    "totalMax": 3840000.0,
+                    "totalMin": 3840000.0
+                },
+                "reserved": {
+                    "max": 1920000.0,
+                    "min": 1920000.0,
+                    "avg": 1920000.0,
+                    "total": 1920000.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "msec",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "name": "Produces",
+                "filters": [],
+                "units": "",
+                "values": {
+                    "max": 40.0,
+                    "min": 40.0,
+                    "avg": 40.0,
+                    "total": 40.0,
+                    "totalMax": 40.0,
+                    "totalMin": 40.0
+                },
+                "value": 40.0
+            },
+            {
+                "name": "Ballooning",
+                "capacity": {
+                    "max": 3.21981261E9,
+                    "min": 3.21981261E9,
+                    "avg": 3.21981261E9,
+                    "total": 3.21981261E9,
+                    "totalMax": 3.21981261E9,
+                    "totalMin": 3.21981261E9
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "KB",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "name": "NetThroughput",
+                "capacity": {
+                    "max": 5.12E7,
+                    "min": 5.12E7,
+                    "avg": 5.12E7,
+                    "total": 5.12E7,
+                    "totalMax": 5.12E7,
+                    "totalMin": 5.12E7
+                },
+                "reserved": {
+                    "max": 3200000.0,
+                    "min": 3200000.0,
+                    "avg": 3200000.0,
+                    "total": 3200000.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "Kbit/sec",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "name": "HostLunAccess",
+                "capacity": {
+                    "max": 1024.0,
+                    "min": 1024.0,
+                    "avg": 1024.0,
+                    "total": 1024.0,
+                    "totalMax": 1024.0,
+                    "totalMin": 1024.0
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "",
+                "values": {
+                    "max": 2.0,
+                    "min": 2.0,
+                    "avg": 2.0,
+                    "total": 2.0,
+                    "totalMax": 2.0,
+                    "totalMin": 2.0
+                },
+                "value": 2.0,
+                "commoditySource": {}
+            },
+            {
+                "displayName": "FROM: MULTIPLE PROVIDERS ",
+                "name": "StorageLatency",
+                "capacity": {
+                    "max": 100.0,
+                    "min": 100.0,
+                    "avg": 100.0,
+                    "total": 500.0,
+                    "totalMax": 500.0,
+                    "totalMin": 500.0
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "bought",
+                        "displayName": null
+                    }
+                ],
+                "relatedEntity": {
+                    "displayName": "MULTIPLE PROVIDERS"
+                },
+                "units": "msec",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "name": "IOThroughput",
+                "capacity": {
+                    "max": 1.2288E7,
+                    "min": 1.2288E7,
+                    "avg": 1.2288E7,
+                    "total": 1.2288E7,
+                    "totalMax": 1.2288E7,
+                    "totalMin": 1.2288E7
+                },
+                "reserved": {
+                    "max": 768000.0,
+                    "min": 768000.0,
+                    "avg": 768000.0,
+                    "total": 768000.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "Kbit/sec",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "displayName": "KEY: PhysicalMachine::d4dd4c00-02f1-11ed-8000-000000000000",
+                "name": "MemAllocation",
+                "capacity": {
+                    "max": 3.21981261E9,
+                    "min": 3.21981261E9,
+                    "avg": 3.21981261E9,
+                    "total": 3.21981261E9,
+                    "totalMax": 3.21981261E9,
+                    "totalMin": 3.21981261E9
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    },
+                    {
+                        "type": "key",
+                        "value": "PhysicalMachine::d4dd4c00-02f1-11ed-8000-000000000000",
+                        "displayName": null
+                    }
+                ],
+                "units": "KB",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "name": "CPUProvisioned",
+                "capacity": {
+                    "max": 6.89472E7,
+                    "min": 6.89472E7,
+                    "avg": 6.89472E7,
+                    "total": 6.89472E7,
+                    "totalMax": 6.89472E7,
+                    "totalMin": 6.89472E7
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "MHz",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {
+                    "capacityCommoditySource": "Calculation",
+                    "usedCommoditySource": "Calculation",
+                    "capacitySourceIndex": 10,
+                    "usedSourceIndex": 6
+                }
+            },
+            {
+                "name": "Mem",
+                "capacity": {
+                    "max": 3.21981261E9,
+                    "min": 3.21981261E9,
+                    "avg": 3.21981261E9,
+                    "total": 3.21981261E9,
+                    "totalMax": 3.21981261E9,
+                    "totalMin": 3.21981261E9
+                },
+                "reserved": {
+                    "max": 3.86377472E8,
+                    "min": 3.86377472E8,
+                    "avg": 3.86377472E8,
+                    "total": 3.86377472E8
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "KB",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {}
+            },
+            {
+                "name": "CarbonFootprint",
+                "capacity": {
+                    "max": 66.034,
+                    "min": 66.034,
+                    "avg": 66.034,
+                    "total": 66.034,
+                    "totalMax": 66.034,
+                    "totalMin": 66.034
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "g",
+                "values": {
+                    "max": 35.539,
+                    "min": 35.539,
+                    "avg": 35.539,
+                    "total": 35.539,
+                    "totalMax": 35.539,
+                    "totalMin": 35.539
+                },
+                "value": 35.539,
+                "commoditySource": {
+                    "capacityCommoditySource": "Calculation",
+                    "usedCommoditySource": "Calculation",
+                    "capacitySourceIndex": -1,
+                    "usedSourceIndex": -1
+                }
+            },
+            {
+                "name": "NumVCore",
+                "capacity": {
+                    "max": 192.0,
+                    "min": 192.0,
+                    "avg": 192.0,
+                    "total": 192.0,
+                    "totalMax": 192.0,
+                    "totalMin": 192.0
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "",
+                "values": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0,
+                    "totalMax": 0.0,
+                    "totalMin": 0.0
+                },
+                "value": 0.0,
+                "commoditySource": {
+                    "usedCommoditySource": "Calculation",
+                    "usedSourceIndex": 4
+                }
+            },
+            {
+                "name": "numSockets",
+                "filters": [],
+                "units": "",
+                "values": {
+                    "max": 4.0,
+                    "min": 4.0,
+                    "avg": 4.0,
+                    "total": 4.0,
+                    "totalMax": 4.0,
+                    "totalMin": 4.0
+                },
+                "value": 4.0
+            },
+            {
+                "name": "Energy",
+                "capacity": {
+                    "max": 176.091,
+                    "min": 176.091,
+                    "avg": 176.091,
+                    "total": 176.091,
+                    "totalMax": 176.091,
+                    "totalMin": 176.091
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "Wh",
+                "values": {
+                    "max": 94.77,
+                    "min": 94.77,
+                    "avg": 94.77,
+                    "total": 94.77,
+                    "totalMax": 94.77,
+                    "totalMin": 94.77
+                },
+                "value": 94.77,
+                "commoditySource": {
+                    "capacityCommoditySource": "Calculation",
+                    "usedCommoditySource": "Calculation",
+                    "capacitySourceIndex": -1,
+                    "usedSourceIndex": -1
+                }
+            }
+        ],
+        "epoch": "HISTORICAL"
+    }
+]

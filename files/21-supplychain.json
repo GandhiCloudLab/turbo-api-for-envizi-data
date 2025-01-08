@@ -1,0 +1,1777 @@
+{
+    "seMap": {
+        "PhysicalMachine": {
+            "depth": 1,
+            "entitiesCount": 1,
+            "stateSummary": {
+                "SUSPEND": 1
+            },
+            "connectedProviderTypes": [
+                "Storage",
+                "DataCenter"
+            ],
+            "connectedConsumerTypes": [
+                "Network",
+                "VirtualDataCenter"
+            ],
+            "instances": {
+                "75703516241553": {
+                    "uuid": "75703516241553",
+                    "displayName": "ded-wdc06s002.na.cloud.techzone.ibm.com",
+                    "className": "PhysicalMachine",
+                    "environmentType": "ONPREM",
+                    "discoveredBy": {
+                        "uuid": "75703515957264",
+                        "displayName": "dedwdc06-vc.na.cloud.techzone.ibm.com",
+                        "category": "Hypervisor",
+                        "isProbeRegistered": false,
+                        "type": "vCenter",
+                        "readonly": false
+                    },
+                    "vendorIds": {
+                        "dedwdc06-vc.na.cloud.techzone.ibm.com": "host-1016"
+                    },
+                    "state": "SUSPEND",
+                    "severity": "Normal",
+                    "severityBreakdown": {
+                        "NORMAL": 1
+                    },
+                    "providers": [
+                        {
+                            "uuid": "75703516241529",
+                            "displayName": "management-share",
+                            "className": "Storage"
+                        },
+                        {
+                            "uuid": "75703516241528",
+                            "displayName": "datastore-wdc06-vm02",
+                            "className": "Storage"
+                        },
+                        {
+                            "uuid": "75703516241505",
+                            "displayName": "IBMCloud",
+                            "className": "DataCenter"
+                        },
+                        {
+                            "uuid": "75703516241520",
+                            "displayName": "datastore1 (2)",
+                            "className": "Storage"
+                        },
+                        {
+                            "uuid": "75703516241527",
+                            "displayName": "datastore-wdc06-vm01",
+                            "className": "Storage"
+                        },
+                        {
+                            "uuid": "75703516241526",
+                            "displayName": "workload_share_o0mZm",
+                            "className": "Storage"
+                        }
+                    ],
+                    "consumers": [
+                        {
+                            "uuid": "75703516241559",
+                            "displayName": "Resources-dedicated-wdc06",
+                            "className": "VirtualDataCenter"
+                        }
+                    ],
+                    "staleness": "CURRENT"
+                }
+            }
+        },
+        "DataCenter": {
+            "depth": 2,
+            "entitiesCount": 1,
+            "stateSummary": {
+                "ACTIVE": 1
+            },
+            "connectedConsumerTypes": [
+                "PhysicalMachine"
+            ],
+            "instances": {
+                "75703516241505": {
+                    "uuid": "75703516241505",
+                    "displayName": "IBMCloud",
+                    "className": "DataCenter",
+                    "environmentType": "ONPREM",
+                    "discoveredBy": {
+                        "uuid": "75703515957264",
+                        "displayName": "dedwdc06-vc.na.cloud.techzone.ibm.com",
+                        "category": "Hypervisor",
+                        "isProbeRegistered": false,
+                        "type": "vCenter",
+                        "readonly": false
+                    },
+                    "vendorIds": {
+                        "dedwdc06-vc.na.cloud.techzone.ibm.com": "datacenter-1001"
+                    },
+                    "state": "ACTIVE",
+                    "severity": "Normal",
+                    "severityBreakdown": {
+                        "NORMAL": 1
+                    },
+                    "consumers": [
+                        {
+                            "uuid": "75703516241553",
+                            "displayName": "ded-wdc06s002.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241558",
+                            "displayName": "ded-wdc06s007.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241554",
+                            "displayName": "ded-wdc06s003.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241530",
+                            "displayName": "ded-wdc06s000.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241557",
+                            "displayName": "ded-wdc06s006.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241556",
+                            "displayName": "ded-wdc06s005.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241552",
+                            "displayName": "ded-wdc06s001.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241555",
+                            "displayName": "ded-wdc06s004.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        }
+                    ],
+                    "tags": {
+                        "EnviziAlternateName": [
+                            "TurbonomicDemoLab-IBMCloud"
+                        ],
+                        "Country": [
+                            "US"
+                        ],
+                        "Latitude": [
+                            "39.04375670"
+                        ],
+                        "Longitude": [
+                            "-77.48744160"
+                        ]
+                    },
+                    "staleness": "CURRENT"
+                }
+            }
+        },
+        "Storage": {
+            "depth": 2,
+            "entitiesCount": 5,
+            "stateSummary": {
+                "ACTIVE": 4,
+                "UNKNOWN": 1
+            },
+            "connectedProviderTypes": [
+                "DiskArray"
+            ],
+            "connectedConsumerTypes": [
+                "PhysicalMachine"
+            ]
+        },
+        "Network": {
+            "depth": 2,
+            "entitiesCount": 13,
+            "stateSummary": {
+                "ACTIVE": 13
+            },
+            "connectedProviderTypes": [
+                "PhysicalMachine"
+            ]
+        },
+        "VirtualDataCenter": {
+            "depth": 2,
+            "entitiesCount": 1,
+            "stateSummary": {
+                "ACTIVE": 1
+            },
+            "connectedProviderTypes": [
+                "PhysicalMachine"
+            ],
+            "instances": {
+                "75703516241559": {
+                    "uuid": "75703516241559",
+                    "displayName": "Resources-dedicated-wdc06",
+                    "className": "VirtualDataCenter",
+                    "environmentType": "ONPREM",
+                    "discoveredBy": {
+                        "uuid": "75703515957264",
+                        "displayName": "dedwdc06-vc.na.cloud.techzone.ibm.com",
+                        "category": "Hypervisor",
+                        "isProbeRegistered": false,
+                        "type": "vCenter",
+                        "readonly": false
+                    },
+                    "vendorIds": {
+                        "dedwdc06-vc.na.cloud.techzone.ibm.com": "resgroup-1007"
+                    },
+                    "state": "ACTIVE",
+                    "severity": "Normal",
+                    "severityBreakdown": {
+                        "NORMAL": 1
+                    },
+                    "providers": [
+                        {
+                            "uuid": "75703516241530",
+                            "displayName": "ded-wdc06s000.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241555",
+                            "displayName": "ded-wdc06s004.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241554",
+                            "displayName": "ded-wdc06s003.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241553",
+                            "displayName": "ded-wdc06s002.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241552",
+                            "displayName": "ded-wdc06s001.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241558",
+                            "displayName": "ded-wdc06s007.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241557",
+                            "displayName": "ded-wdc06s006.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        },
+                        {
+                            "uuid": "75703516241556",
+                            "displayName": "ded-wdc06s005.na.cloud.techzone.ibm.com",
+                            "className": "PhysicalMachine"
+                        }
+                    ],
+                    "consumers": [
+                        {
+                            "uuid": "75703516242692",
+                            "displayName": "Microsoft Windows Server - VM07",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75737131040450",
+                            "displayName": "R-SE06-Sales03-Rocky",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242601",
+                            "displayName": "kc1master",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242497",
+                            "displayName": "rlive-robohost",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242496",
+                            "displayName": "turbo test PP",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242398",
+                            "displayName": "CS-OCP-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242675",
+                            "displayName": "se-lab-openshift-self-tm64r-master-2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242465",
+                            "displayName": "SHL-KWR01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242477",
+                            "displayName": "linux-jumpbox",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242453",
+                            "displayName": "CW-Turbo2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242681",
+                            "displayName": "Artem Labs - ART-VMT-SQL02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242644",
+                            "displayName": "Topology-05",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242686",
+                            "displayName": "Microsoft Windows Server - VM04",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242718",
+                            "displayName": "ndf-ans-c1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242700",
+                            "displayName": "NJ-Ansible(use this)",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242714",
+                            "displayName": "CScharfstein-Jenkins",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242530",
+                            "displayName": "rlive-k8s-n1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242468",
+                            "displayName": "asimmons8124",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242443",
+                            "displayName": "Turbo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242440",
+                            "displayName": "VolkerFischer-Turbo02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242555",
+                            "displayName": "R-SE03-Rocky",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242362",
+                            "displayName": "TZ-ScriptBox",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242535",
+                            "displayName": "VFischer-Win11-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242407",
+                            "displayName": "aiops2-openshift-r52f5-master-0",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242515",
+                            "displayName": "mlemarec-turbo-rhel",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242558",
+                            "displayName": "R-SE02-Rocky",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242657",
+                            "displayName": "Windows11",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242539",
+                            "displayName": "Rocky Linux Virtual Machine",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242434",
+                            "displayName": "centosddennis8110source",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242409",
+                            "displayName": "aiops2-openshift-r52f5-worker-9q7jh",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242412",
+                            "displayName": "aiops2-openshift-r52f5-worker-z5hkx",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242483",
+                            "displayName": "mlemarec-turbo-warm",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242360",
+                            "displayName": "service-edge01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242688",
+                            "displayName": "Grafana",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242662",
+                            "displayName": "CS-VMWare",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242586",
+                            "displayName": "SE10-IntersightAssist",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242636",
+                            "displayName": "Artem Labs - ART-VMT-SQL01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242502",
+                            "displayName": "ELM02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242664",
+                            "displayName": "RyanS-bastion",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242384",
+                            "displayName": "arrow-node-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242418",
+                            "displayName": "ndf-turbo2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242375",
+                            "displayName": "Tim's Win11 Jumpbox",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242600",
+                            "displayName": "vc01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242435",
+                            "displayName": "UbuntuCSMF",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242365",
+                            "displayName": "SE02 [inactive]",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242624",
+                            "displayName": "instana-se-lab",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242421",
+                            "displayName": "CS-VMWare-Secondary-Node",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242619",
+                            "displayName": "turbo-se-openshift-zv8z4-master-0",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242713",
+                            "displayName": "aiops2-app-vm",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242355",
+                            "displayName": "ded-wdc06-nsxt-ctrlmgr0",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242455",
+                            "displayName": "Instana",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242406",
+                            "displayName": "aiops2-openshift-r52f5-master-2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242671",
+                            "displayName": "turbo-se-openshift-zv8z4-worker-ndx8m",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242656",
+                            "displayName": "CS-Proxmox",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242415",
+                            "displayName": "hyq-instana02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242592",
+                            "displayName": "vc01esx01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242583",
+                            "displayName": "qotdcluster",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242648",
+                            "displayName": "OCP-Master-02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242545",
+                            "displayName": "ELMK3s",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242663",
+                            "displayName": "Datla-bastion-cenos",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242552",
+                            "displayName": "turbo8135vm1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242627",
+                            "displayName": "Topology-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242487",
+                            "displayName": "spatil8130",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242608",
+                            "displayName": "appdstress03.demo.turbonomic.com",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242371",
+                            "displayName": "GM-linuxBox-stress",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242711",
+                            "displayName": "jasons-8.9.7",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242450",
+                            "displayName": "OCP-Tim-03",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75782478655922",
+                            "displayName": "Control-Rocky",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242405",
+                            "displayName": "aiops2-openshift-r52f5-master-1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242498",
+                            "displayName": "Pliant-RapidNetworkAutomation",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242682",
+                            "displayName": "Microsoft Windows Server - VM01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75788114950273",
+                            "displayName": "SaaSClientTest",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242385",
+                            "displayName": "arrow-node-02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242504",
+                            "displayName": "centosdennis8110upgrade8130",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242458",
+                            "displayName": "justin",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242486",
+                            "displayName": "RHEL 9",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242544",
+                            "displayName": "Ubuntu Linux Desktop VM",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242559",
+                            "displayName": "TZ-JumpBox",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242531",
+                            "displayName": "rlive-k8s-n2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75754736382962",
+                            "displayName": "Turbo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242472",
+                            "displayName": "asamir.8131",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242482",
+                            "displayName": "mlemarec-turbo-hot",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242366",
+                            "displayName": "SE03 [Inactive]",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242517",
+                            "displayName": "LuckVM8123",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242630",
+                            "displayName": "CSOwnTurboXL",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242643",
+                            "displayName": "Topology-08",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242454",
+                            "displayName": "Concert-RHEL",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242536",
+                            "displayName": "mlemarec-rhel-gui",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242717",
+                            "displayName": "ndf-ans-eda",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242704",
+                            "displayName": "Instana-bec-01 (instana-k3s)",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242584",
+                            "displayName": "instanasrv",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242685",
+                            "displayName": "Microsoft Windows Server - VM03",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242439",
+                            "displayName": "gml-turbo-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242432",
+                            "displayName": "rockydennis8124dest",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242659",
+                            "displayName": "Mbeckert-win11-jump",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242359",
+                            "displayName": "cust-edge02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242452",
+                            "displayName": "justin-turbo-8.12",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242581",
+                            "displayName": "ibmtradeapp10",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242710",
+                            "displayName": "New Virtual Machine",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242604",
+                            "displayName": "ibmliberty1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242352",
+                            "displayName": "aiops2-instana-vm",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242639",
+                            "displayName": "Master",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242369",
+                            "displayName": "OVA test",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242436",
+                            "displayName": "Expert-lab-tubonomics-lessons",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242501",
+                            "displayName": "t8c-techzone-lab (Secure Connect) Rocky 8.13.4",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242705",
+                            "displayName": "nj891-1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242533",
+                            "displayName": "rlive-k8s-n3",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242620",
+                            "displayName": "turbo-se-openshift-zv8z4-worker-d2cgt",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242612",
+                            "displayName": "appdstress01.demo.turbonomic.com",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242512",
+                            "displayName": "ELM05",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242386",
+                            "displayName": "arrow-node-03",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242607",
+                            "displayName": "stress02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242665",
+                            "displayName": "SHL-Srv01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242356",
+                            "displayName": "ded-wdc06-nsxt-ctrlmgr1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242691",
+                            "displayName": "Microsoft Windows Server - VM06",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242414",
+                            "displayName": "hyq-instana01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242638",
+                            "displayName": "Topology-03",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242466",
+                            "displayName": "SHL-KWR02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242593",
+                            "displayName": "vc01esx02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242401",
+                            "displayName": "CS-Win11",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242611",
+                            "displayName": "Anson-TurboBot (Hawthorne)",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242387",
+                            "displayName": "arrow-node-04",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242605",
+                            "displayName": "ibmliberty2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242670",
+                            "displayName": "AnsonEmptyVM",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242678",
+                            "displayName": "CS-Instana-Appliance",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242423",
+                            "displayName": "SHL-REHL8-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242420",
+                            "displayName": "ROJA",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242647",
+                            "displayName": "OCP-Master-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242546",
+                            "displayName": "gml-turbo-02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242459",
+                            "displayName": "GAM-Turbo-8.14.2-Rocky",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242433",
+                            "displayName": "RDTurboDemo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242701",
+                            "displayName": "AnsonAnsibleTest",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242578",
+                            "displayName": "SE05-Sales02 [Inactive]",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703611091778",
+                            "displayName": "R-SE05-Sales02-Rocky",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242658",
+                            "displayName": "WinServer2022",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242553",
+                            "displayName": "turbo8135vm2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242625",
+                            "displayName": "dedwdc06-vcenter",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75726318306212",
+                            "displayName": "rocky8130dest",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242674",
+                            "displayName": "se-lab-openshift-self-tm64r-master-1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75776412818994",
+                            "displayName": "witthaut-topology",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242374",
+                            "displayName": "8.10.3 - test",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242513",
+                            "displayName": "t8c-techzone-lab (Secure Connect) Rocky 8.13.0",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242598",
+                            "displayName": "vc01esx07",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242629",
+                            "displayName": "SHL-Turbo-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242616",
+                            "displayName": "Competitive01-VA",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242672",
+                            "displayName": "Win2022DC",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242532",
+                            "displayName": "rlive-k8s-cp",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242419",
+                            "displayName": "Artem Labs - ART-VMT-RDS01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242709",
+                            "displayName": "OPC-Turbo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242518",
+                            "displayName": "Rocky-Topology-02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242505",
+                            "displayName": "ELM04",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242690",
+                            "displayName": "Microsoft Windows Server - VM05",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242641",
+                            "displayName": "worker2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242669",
+                            "displayName": "turbo-se-openshift-zv8z4-worker-gjm6k",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242697",
+                            "displayName": "JulieWindows",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242457",
+                            "displayName": "cs-helper-vm",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242684",
+                            "displayName": "Linux - Terraform Appliance",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75717953468370",
+                            "displayName": "R-SE01-Rocky",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242462",
+                            "displayName": "Turbo-Demo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75724331101490",
+                            "displayName": "amy-t8c-8.14.1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242706",
+                            "displayName": "Sweetz-TurboLab-CentOS",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242437",
+                            "displayName": "CW-Turbo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242610",
+                            "displayName": "SE08-Workshop",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242622",
+                            "displayName": "turbo-se-openshift-zv8z4-worker-fjg52",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75742488712032",
+                            "displayName": "amy-t8c-8.13.4-vm1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242557",
+                            "displayName": "mhermnatsakanyan",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242417",
+                            "displayName": "HallieVM",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242660",
+                            "displayName": "datla-jumpbox-win",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242485",
+                            "displayName": "rlive-turbo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242560",
+                            "displayName": "SE09-SaaS",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242438",
+                            "displayName": "TurboCSMF",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242621",
+                            "displayName": "turbo-se-openshift-zv8z4-worker-h9ck9",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242626",
+                            "displayName": "Topology-00",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242388",
+                            "displayName": "arrow-node-05",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242442",
+                            "displayName": "Shekhar_Turbo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242640",
+                            "displayName": "worker1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242547",
+                            "displayName": "louise-turbo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242679",
+                            "displayName": "rejithTurbo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242408",
+                            "displayName": "aiops2-openshift-r52f5-worker-5qzwt",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242702",
+                            "displayName": "GM-WM-ggggg",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242358",
+                            "displayName": "cust-edge01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75776288921282",
+                            "displayName": "mlemarec-rhel-turbodb",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242597",
+                            "displayName": "vc01esx06",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242424",
+                            "displayName": "SHL-REHL8-02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242617",
+                            "displayName": "turbo-se-openshift-zv8z4-master-1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242467",
+                            "displayName": "SHL-KWR03",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242594",
+                            "displayName": "vc01esx03",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242603",
+                            "displayName": "kc1worker2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242666",
+                            "displayName": "JeremyG-Jump-Win11",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242579",
+                            "displayName": "FlexeraBeacon",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242642",
+                            "displayName": "Topology-04",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242613",
+                            "displayName": "jump-centos",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242368",
+                            "displayName": "New-Bastion",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242413",
+                            "displayName": "hyq-instana04",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242448",
+                            "displayName": "OCP-Tim-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242469",
+                            "displayName": "Turbo_training_2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75735556644210",
+                            "displayName": "Rocky-Topology-00",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75757750329394",
+                            "displayName": "R-SE07-Workshop-Rocky",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242646",
+                            "displayName": "CS-Gitlab",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242703",
+                            "displayName": "winsrv2022",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242673",
+                            "displayName": "se-lab-openshift-self-tm64r-master-0",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242537",
+                            "displayName": "VFischer-RTurbo-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242698",
+                            "displayName": "Nick-EDA-Controller",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242373",
+                            "displayName": "8.11.1 - test",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242529",
+                            "displayName": "cwom64-opsmgr-3.10.3",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242650",
+                            "displayName": "joe-ocp-bastion",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75775250444738",
+                            "displayName": "JumpHost-HG",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242404",
+                            "displayName": "openshift-sno",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242716",
+                            "displayName": "ndf-ans-db",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242400",
+                            "displayName": "CS-OCP-03",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242425",
+                            "displayName": "SHL-REHL8-03",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242693",
+                            "displayName": "Microsoft Windows Server - VM08",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242451",
+                            "displayName": "tim-postgresql",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242637",
+                            "displayName": "SHL-Turbo-02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242550",
+                            "displayName": "License Server",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242484",
+                            "displayName": "mlemarec-rhel-tbutil",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242377",
+                            "displayName": "ndf-postgres",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242623",
+                            "displayName": "turbo-se-openshift-zv8z4-worker-vvmlx",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242489",
+                            "displayName": "Concert-Dev",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242411",
+                            "displayName": "aiops2-openshift-r52f5-worker-mzdsx",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242519",
+                            "displayName": "EMEA-XL-EA",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242696",
+                            "displayName": "Turbonomic-T8C-8.9.X-AFX1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242689",
+                            "displayName": "rejith-turbo8.9.7",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242609",
+                            "displayName": "TZ-IPAM",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242556",
+                            "displayName": "R-SE04-Sales01-Rocky",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242503",
+                            "displayName": "ELM03",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242528",
+                            "displayName": "rlive-liberty",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242470",
+                            "displayName": "Rocky-Topology-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242715",
+                            "displayName": "ndf-turbo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242615",
+                            "displayName": "appdstress02.demo.turbonomic.com",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242695",
+                            "displayName": "se-lab-openshift-self-tm64r-worker-vbckq",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242661",
+                            "displayName": "Joe-Win11-Jumpbox",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242444",
+                            "displayName": "TWS-t8c-8.12.5-Rocky",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75775202409303",
+                            "displayName": "OCP-Node-02HG",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242677",
+                            "displayName": "beckert-bastion",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242680",
+                            "displayName": "GAM-Turbo-8.12.4-CentOS",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242687",
+                            "displayName": "Turbonomic-T8C-8.14.X-B",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242707",
+                            "displayName": "TurboSplunkDemo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242606",
+                            "displayName": "stress01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242416",
+                            "displayName": "hyq-instana03",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242464",
+                            "displayName": "SHL-KCP01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75785478752226",
+                            "displayName": "turbonomic-t8c-8.14.0-20241010025526000-RHEL",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242402",
+                            "displayName": "bjb",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242460",
+                            "displayName": "probe-helper",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242538",
+                            "displayName": "mlemarec-turbo-rhel2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242576",
+                            "displayName": "SE04-Sales01 [inactive]",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242668",
+                            "displayName": "Bastion-JeremyG",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242635",
+                            "displayName": "Artem Labs - ART-VMT-DC01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242548",
+                            "displayName": "NetCool",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242399",
+                            "displayName": "CS-OCP-02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242361",
+                            "displayName": "service-edge02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242461",
+                            "displayName": "NewTurbo",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242456",
+                            "displayName": "justin-turbo-8.12v2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242631",
+                            "displayName": "Topology-02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242712",
+                            "displayName": "jasons-8.10.0",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242699",
+                            "displayName": "Nick-RHEL-Automation-Hub",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242628",
+                            "displayName": "SHL-Instana-Srv01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242354",
+                            "displayName": "Dennis_Windows11_Jump",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242370",
+                            "displayName": "Kenji",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242614",
+                            "displayName": "Turbo-Education-UtilProbes",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242389",
+                            "displayName": "arrow-node-06",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242372",
+                            "displayName": "Test VM - HotAdd",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242596",
+                            "displayName": "vc01esx05",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242353",
+                            "displayName": "RyanS - Win11",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242480",
+                            "displayName": "Turbo-8.13",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242582",
+                            "displayName": "rs1cluster",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242551",
+                            "displayName": "amy-t8c-8.13.4-vm2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242367",
+                            "displayName": "TZ-HAProxy",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242618",
+                            "displayName": "turbo-se-openshift-zv8z4-master-2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242634",
+                            "displayName": "Turbonomic-T8C-8.14.X-A",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242364",
+                            "displayName": "SE01 [inactive]",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242667",
+                            "displayName": "Gries-Jump",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242580",
+                            "displayName": "MSSQL",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242410",
+                            "displayName": "aiops2-openshift-r52f5-worker-gw4bp",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242449",
+                            "displayName": "OCP-Tim-02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242357",
+                            "displayName": "ded-wdc06-nsxt-ctrlmgr2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242499",
+                            "displayName": "ELM01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242441",
+                            "displayName": "Turbo-Wow",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75775202409302",
+                            "displayName": "OCP-Node-01HG",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75774045917954",
+                            "displayName": "mlemarec-win-bmc",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242376",
+                            "displayName": "ndf-db",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242694",
+                            "displayName": "se-lab-openshift-self-tm64r-worker-9pmrn",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242595",
+                            "displayName": "vc01esx04",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75775202409304",
+                            "displayName": "OCP-Node-03HG",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75716993454450",
+                            "displayName": "VFischer-RHEL-01",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242602",
+                            "displayName": "kc1worker1",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242676",
+                            "displayName": "terraform",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242708",
+                            "displayName": "Mher-Jump-BOX",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242363",
+                            "displayName": "Control",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75727758312323",
+                            "displayName": "centos8100source",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75743794288850",
+                            "displayName": "dbf-turbo-8.14.2",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242403",
+                            "displayName": "t8c-techzone-lab (centos)",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75746280969010",
+                            "displayName": "K3s",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75713863848386",
+                            "displayName": "turbo8140",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242599",
+                            "displayName": "vc01esx08",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242422",
+                            "displayName": "t8c-techzone-lab (Rocky9)",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242683",
+                            "displayName": "Microsoft Windows Server - VM02",
+                            "className": "VirtualMachine"
+                        },
+                        {
+                            "uuid": "75703516242649",
+                            "displayName": "OCP-Master-03",
+                            "className": "VirtualMachine"
+                        }
+                    ],
+                    "staleness": "CURRENT"
+                }
+            }
+        },
+        "DiskArray": {
+            "depth": 3,
+            "entitiesCount": 5,
+            "stateSummary": {
+                "ACTIVE": 5
+            },
+            "connectedConsumerTypes": [
+                "Storage"
+            ]
+        }
+    }
+}
