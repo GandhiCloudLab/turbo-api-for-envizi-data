@@ -1,0 +1,170 @@
+[
+    {
+        "displayName": "vc01dc01",
+        "date": "2024-10-01T00:00:00Z",
+        "statistics": [
+            {
+                "name": "CarbonFootprint",
+                "capacity": {
+                    "max": 62.129,
+                    "min": 42.115,
+                    "avg": 58.1205,
+                    "total": 464.964,
+                    "totalMax": 464.964,
+                    "totalMin": 464.964
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "g",
+                "values": {
+                    "max": 24.917,
+                    "min": 18.401,
+                    "avg": 22.166124,
+                    "total": 177.329,
+                    "totalMax": 185.874,
+                    "totalMin": 161.398
+                },
+                "value": 22.166124,
+                "commoditySource": {}
+            }
+        ],
+        "epoch": "HISTORICAL"
+    },
+    {
+        "displayName": "vc01dc01",
+        "date": "2024-11-01T00:00:00Z",
+        "statistics": [
+            {
+                "name": "CarbonFootprint",
+                "capacity": {
+                    "max": 61.829,
+                    "min": 22.45,
+                    "avg": 44.486374,
+                    "total": 355.891,
+                    "totalMax": 355.891,
+                    "totalMin": 355.891
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "g",
+                "values": {
+                    "max": 25.035,
+                    "min": 9.525,
+                    "avg": 21.607876,
+                    "total": 172.863,
+                    "totalMax": 187.972,
+                    "totalMin": 129.934
+                },
+                "value": 21.607876,
+                "commoditySource": {}
+            }
+        ],
+        "epoch": "HISTORICAL"
+    },
+    {
+        "displayName": "vc01dc01",
+        "date": "2024-12-01T00:00:00Z",
+        "statistics": [
+            {
+                "name": "CarbonFootprint",
+                "capacity": {
+                    "max": 61.819,
+                    "min": 22.449,
+                    "avg": 44.4775,
+                    "total": 355.82,
+                    "totalMax": 355.82,
+                    "totalMin": 355.82
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "g",
+                "values": {
+                    "max": 24.861,
+                    "min": 19.06,
+                    "avg": 21.77925,
+                    "total": 174.234,
+                    "totalMax": 187.734,
+                    "totalMin": 163.213
+                },
+                "value": 21.77925,
+                "commoditySource": {}
+            }
+        ],
+        "epoch": "HISTORICAL"
+    },
+    {
+        "displayName": "vc01dc01",
+        "date": "2025-01-01T00:00:00Z",
+        "statistics": [
+            {
+                "name": "CarbonFootprint",
+                "capacity": {
+                    "max": 61.819,
+                    "min": 22.449,
+                    "avg": 44.477375,
+                    "total": 355.819,
+                    "totalMax": 355.819,
+                    "totalMin": 355.819
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "g",
+                "values": {
+                    "max": 23.451,
+                    "min": 18.159,
+                    "avg": 21.52925,
+                    "total": 172.234,
+                    "totalMax": 180.742,
+                    "totalMin": 159.609
+                },
+                "value": 21.52925,
+                "commoditySource": {}
+            }
+        ],
+        "epoch": "HISTORICAL"
+    }
+]

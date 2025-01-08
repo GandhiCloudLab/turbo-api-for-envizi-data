@@ -1,7 +1,9 @@
 # Turbonomic and Envizi Integration - info
 
 
-## Login
+## Turbonomic APIs
+
+### Login
 
 URL : https://sales1.demo.turbonomic.com/api/v3/login?hateoas=true
 
@@ -19,14 +21,15 @@ curl --location 'https://sales1.demo.turbonomic.com/api/v3/login?hateoas=true' \
 
 ```
 
-## Data Center
+### Data Center
 
 URL : https://sales1.demo.turbonomic.com/api/v3/search?types=DataCenter
+
+Output file : <a target="_blank" href="./files/11-datacenter.json">Link</a>
 
 <img src="images/img11.png">
 <img src="images/img12.png">
 
-Output file : <a href="./files/11-datacenter.json">Link</a>
 
 #### CURL
 
@@ -38,13 +41,13 @@ curl --location 'https://sales1.demo.turbonomic.com/api/v3/search?types=DataCent
 
 
 
-## Supplychains
+### Supplychains
 
 URL : https://sales1.demo.turbonomic.com/api/v3/supplychains?environment_type=ONPREM&uuids=75703516241553
 
-<img src="images/img21.png">
+Output file : <a target="_blank" href="./files/21-supplychain.json">Link</a>
 
-Output file : <a href="./files/21-supplychain.json">Link</a>
+<img src="images/img21.png">
 
 
 #### CURL
@@ -55,15 +58,13 @@ curl --location 'https://sales1.demo.turbonomic.com/api/v3/supplychains?environm
 
 ```
 
-
-
-## Entities
+### Entities
 
 URL : https://sales1.demo.turbonomic.com/api/v3/entities/75703516241553/stats
 
-<img src="images/img31.png">
+Output file : <a target="_blank" href="./files/31-entities.json">Link</a>
 
-Output file : <a href="./files/31-entities.json">Link</a>
+<img src="images/img31.png">
 
 
 #### CURL
@@ -73,3 +74,136 @@ curl --location 'https://sales1.demo.turbonomic.com/api/v3/entities/757035162415
 --header 'Cookie: JSESSIONID=node018kipht4j2vt81gsh6k21q42b928661.node0'
 
 ```
+
+## Energy and Carbon FootPrint Details in Turbonomic
+
+<details><summary>CLICK ME</summary>
+
+<img src="images/img81.png">
+
+<img src="images/img82.png">
+
+<img src="images/img83.png">
+
+<img src="images/img84.png">
+
+<img src="images/img85.png">
+
+<img src="images/img86.png">
+
+
+</details>
+
+### Energy Data  in 2024
+
+#### Turbonmoic
+
+<img src="images/img41.png">
+
+
+URL : https://sales1.demo.turbonomic.com/api/v3/entities/75703516408913/stats
+
+Body: 
+```
+{
+                    "startDate": "2024-01-01T00:00:01+00:00",
+                    "endDate": "2025-01-07T23:59:59+00:00",
+                    "statistics": [
+                        {
+                            "name": "Energy",
+                            "filters": [
+                                {
+                                    "type": "relation",
+                                    "value": "sold"
+                                }
+                            ]
+                        }
+                    ]
+                }
+```
+
+Output file : <a target="_blank" href="./files/41-energy-1.json">Link</a>
+
+<img src="images/img42.png">
+
+
+#### CURL
+
+```
+curl --location 'https://sales1.demo.turbonomic.com/api/v3/entities/75703516408913/stats' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=node018kipht4j2vt81gsh6k21q42b928661.node0' \
+--data '{
+                    "startDate": "2024-01-01T00:00:01+00:00",
+                    "endDate": "2025-01-07T23:59:59+00:00",
+                    "statistics": [
+                        {
+                            "name": "Energy",
+                            "filters": [
+                                {
+                                    "type": "relation",
+                                    "value": "sold"
+                                }
+                            ]
+                        }
+                    ]
+                }'
+```                
+
+### Carbon FootPrint  in 2024
+
+#### Turbonmoic
+
+<img src="images/img43.png">
+
+### 
+
+URL : https://sales1.demo.turbonomic.com/api/v3/entities/75703516408913/stats
+
+Body: 
+```
+{
+                    "startDate": "2024-01-01T00:00:01+00:00",
+                    "endDate": "2025-01-07T23:59:59+00:00",
+                    "statistics": [
+                        {
+                            "name": "CarbonFootprint",
+                            "filters": [
+                                {
+                                    "type": "relation",
+                                    "value": "sold"
+                                }
+                            ]
+                        }
+                    ]
+                }
+```
+
+Output file : <a target="_blank" href="./files/42-carbon-footprint.json">Link</a>
+
+<img src="images/img44.png">
+
+
+#### CURL
+
+```
+curl --location 'https://sales1.demo.turbonomic.com/api/v3/entities/75703516408913/stats' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=node018kipht4j2vt81gsh6k21q42b928661.node0' \
+--data '{
+                    "startDate": "2024-01-01T00:00:01+00:00",
+                    "endDate": "2025-01-07T23:59:59+00:00",
+                    "statistics": [
+                        {
+                            "name": "CarbonFootprint",
+                            "filters": [
+                                {
+                                    "type": "relation",
+                                    "value": "sold"
+                                }
+                            ]
+                        }
+                    ]
+                }'
+
+```                  

@@ -1,0 +1,170 @@
+[
+    {
+        "displayName": "vc01dc01",
+        "date": "2024-10-01T00:00:00Z",
+        "statistics": [
+            {
+                "name": "Energy",
+                "capacity": {
+                    "max": 165.676,
+                    "min": 112.306,
+                    "avg": 154.98787,
+                    "total": 1239.903,
+                    "totalMax": 1239.903,
+                    "totalMin": 1239.903
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "Wh",
+                "values": {
+                    "max": 66.447,
+                    "min": 49.071,
+                    "avg": 59.104374,
+                    "total": 472.835,
+                    "totalMax": 495.668,
+                    "totalMin": 430.397
+                },
+                "value": 59.104374,
+                "commoditySource": {}
+            }
+        ],
+        "epoch": "HISTORICAL"
+    },
+    {
+        "displayName": "vc01dc01",
+        "date": "2024-11-01T00:00:00Z",
+        "statistics": [
+            {
+                "name": "Energy",
+                "capacity": {
+                    "max": 164.878,
+                    "min": 59.867,
+                    "avg": 118.63025,
+                    "total": 949.042,
+                    "totalMax": 949.042,
+                    "totalMin": 949.042
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "Wh",
+                "values": {
+                    "max": 66.759,
+                    "min": 25.401,
+                    "avg": 57.620876,
+                    "total": 460.967,
+                    "totalMax": 501.257,
+                    "totalMin": 346.496
+                },
+                "value": 57.620876,
+                "commoditySource": {}
+            }
+        ],
+        "epoch": "HISTORICAL"
+    },
+    {
+        "displayName": "vc01dc01",
+        "date": "2024-12-01T00:00:00Z",
+        "statistics": [
+            {
+                "name": "Energy",
+                "capacity": {
+                    "max": 164.85,
+                    "min": 59.864,
+                    "avg": 118.607,
+                    "total": 948.856,
+                    "totalMax": 948.856,
+                    "totalMin": 948.856
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "Wh",
+                "values": {
+                    "max": 66.297,
+                    "min": 50.826,
+                    "avg": 58.103374,
+                    "total": 464.827,
+                    "totalMax": 500.625,
+                    "totalMin": 435.232
+                },
+                "value": 58.103374,
+                "commoditySource": {}
+            }
+        ],
+        "epoch": "HISTORICAL"
+    },
+    {
+        "displayName": "vc01dc01",
+        "date": "2025-01-01T00:00:00Z",
+        "statistics": [
+            {
+                "name": "Energy",
+                "capacity": {
+                    "max": 164.851,
+                    "min": 59.864,
+                    "avg": 118.6065,
+                    "total": 948.852,
+                    "totalMax": 948.852,
+                    "totalMin": 948.852
+                },
+                "reserved": {
+                    "max": 0.0,
+                    "min": 0.0,
+                    "avg": 0.0,
+                    "total": 0.0
+                },
+                "filters": [
+                    {
+                        "type": "relation",
+                        "value": "sold",
+                        "displayName": null
+                    }
+                ],
+                "units": "Wh",
+                "values": {
+                    "max": 62.537,
+                    "min": 48.424,
+                    "avg": 57.413002,
+                    "total": 459.30402,
+                    "totalMax": 481.978,
+                    "totalMin": 425.621
+                },
+                "value": 57.413002,
+                "commoditySource": {}
+            }
+        ],
+        "epoch": "HISTORICAL"
+    }
+]
